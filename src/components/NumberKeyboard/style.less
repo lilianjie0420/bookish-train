@@ -1,0 +1,86 @@
+.Keyboard {
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    .Keyboard_input {
+        background-color: white;
+        border-radius: 10px;
+        margin: 50px 10px 0;
+        padding: 12px 10px;
+
+        .Keyboard_input_box {
+            display: flex;
+        }
+        
+        .Keyboard_input_input {
+            .adm-input-element {
+                font-size: 40px;
+            }
+        }
+
+        .Keyboard_input_￥{
+            font-size: 24px;
+            font-weight: 700;
+            align-self: center;
+        }
+
+        .Keyboard_input_title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .adm-button {
+                font-size: 12px;
+            }
+        }
+
+        .Keyboard_inpnt_unit_box {
+            height: 15px;
+            .Keyboard_input_unit {
+                margin-left: 24px;
+                color: #ccc
+            }
+        }
+        
+        .Keyboard_input_dec {
+            color: #a7a7a7;
+        }
+
+        .Keyboard_input_operate {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            .Keyboard_input_operate_btn {
+                padding: 0;
+                margin-left: 7px;
+            }
+            .Keyboard_input_operate_money {
+                color: #ccc;
+                width: 70px;
+                text-align: center;
+            }
+        }
+        
+    }
+
+}
+
+.ConfirmBtn {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: solid 2px #eee;
+    border-bottom: none;
+    border-right: none;
+}
+
+.adm-number-keyboard-key-ok {
+    background-color: white !important;
+}
